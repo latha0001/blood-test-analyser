@@ -68,36 +68,46 @@ A FastAPI-based application that uses AI agents to analyze blood test reports an
    venv\Scripts\activate
 
 7. **Install dependencies**
+   
    bash
+   
    pip install -r requirements.txt
    
 
-8. **Set up environment variables**
+9. **Set up environment variables**
+    
    bash
+   
    # Copy the example environment file
+   
    cp .env.example .env
    
    # Edit .env file and add your API keys
+   
    OPENAI_API_KEY=your_openai_api_key_here
    SERPER_API_KEY=your_serper_api_key_here
 
 
-9. **Create data directory**
+11. **Create data directory**
+    
    bash
+   
    mkdir data
    
 
 ### Running the Application
 
 1. **Start the FastAPI server**
+   
    bash
+   
    python main.py
    
    Or using uvicorn directly:
    bash
    uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-2. **Access the application**
+3. **Access the application**
    - API: http://localhost:8000
    - Interactive API docs: http://localhost:8000/docs
    - Alternative docs: http://localhost:8000/redoc
