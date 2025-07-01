@@ -49,24 +49,26 @@ A FastAPI-based application that uses AI agents to analyze blood test reports an
 ### Installation
 
 1. **Clone or download the project files**
-
-2. **Navigate to the python directory**
+   
+      github: https://github.com/latha0001/blood-test-analyser
+   
+3. **Navigate to the python directory**
    bash
    cd python
 
-3. **Create a virtual environment**
+4. **Create a virtual environment**
    bash
    python -m venv venv
    
    # On Windows
    venv\Scripts\activate
 
-4. **Install dependencies**
+5. **Install dependencies**
    bash
    pip install -r requirements.txt
    
 
-5. **Set up environment variables**
+6. **Set up environment variables**
    bash
    # Copy the example environment file
    cp .env.example .env
@@ -76,7 +78,7 @@ A FastAPI-based application that uses AI agents to analyze blood test reports an
    SERPER_API_KEY=your_serper_api_key_here
 
 
-6. **Create data directory**
+7. **Create data directory**
    bash
    mkdir data
    
